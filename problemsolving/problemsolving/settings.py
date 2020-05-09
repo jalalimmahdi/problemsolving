@@ -119,3 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#to make static files work as expected in Windows
+STATICFILES_DIRS=(os.path.join('static'),)

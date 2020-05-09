@@ -1,0 +1,17 @@
+body {
+    /* direction: rtl; */
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.myheader {
+
+}
+
+.sitetitle{
+    color: red;
+}
